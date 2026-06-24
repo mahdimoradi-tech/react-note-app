@@ -1,16 +1,29 @@
-# React + Vite
+# 📝 Smart React Note App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully functional, single-page Note Application built with React. This project demonstrates advanced state management using React Context API and `useReducer`[cite: 6], dynamic sorting[cite: 9], and a highly modular component-based architecture.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
+**[Live Demo](https://mahdimoradi-tech.github.io/react-note-app/)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Key Features
+- **Add Notes:** Create new notes with title and description, including empty-field validation[cite: 7].
+- **Toggle Status:** Mark notes as completed or open using integrated checkboxes[cite: 9].
+- **Delete Notes:** Easily remove unwanted notes from the list[cite: 9].
+- **Advanced Sorting:** Dynamically sort the note list by[cite: 8, 9]:
+  - Latest notes
+  - Earliest notes
+  - Completed notes
+  - Uncompleted notes
+- **Dashboard Statistics:** Real-time calculation of total notes, completed notes, and open notes[cite: 10].
+- **Global State Management:** Data flow is centrally managed using `useReducer` and provided globally via `NotesContext`[cite: 6].
+- **Responsive UI:** Clean and modern interface styled with pure CSS Variables and custom layouts[cite: 3].
 
-## React Compiler
+## 🛠️ Tech Stack
+- React (Vite)[cite: 2, 4, 5]
+- Context API & Hooks (`useReducer`, `useContext`, `useState`)[cite: 4, 6]
+- Pure CSS (CSS Variables, Flexbox, Grid)[cite: 3]
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Run Locally
+1. Clone the repository:
+```bash
+   git clone [https://github.com/mahdimoradi-tech/react-note-app.git](https://github.com/mahdimoradi-tech/react-note-app.git)
