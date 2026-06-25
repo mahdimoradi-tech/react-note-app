@@ -3,7 +3,7 @@
 A fully functional, single-page Note Application built with React. This project demonstrates advanced state management using React Context API and `useReducer`[cite: 6], dynamic sorting[cite: 9], and a highly modular component-based architecture.
 
 ## 🔗 Live Demo
-**[Live Demo](https://react-note-app-pd5a.vercel.app/)**
+**[Live Demo](https://react-note-app-beta-kohl.vercel.app/)**
 
 ## ✨ Key Features
 - **Add Notes:** Create new notes with title and description, including empty-field validation[cite: 7].
